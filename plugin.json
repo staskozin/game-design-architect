@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "game-design-architect",
+  "version": "0.1.0",
+  "description": "Design, analyze, and specify game mechanics using a shared five-block decomposition framework.",
+  "keywords": ["game-design", "game-mechanics", "mechanic-analysis", "technical-specification"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Game Design Architect",
+        "shortDescription": "Механики, анализ и ТЗ",
+        "longDescription": "Три сценария работы с игровыми механиками: проектирование новых, анализ существующих и подготовка технических заданий. Общая методика: геймдизайнерская цель, решения игрока, игровой цикл и экономика; Input, Detection, State & Logic, Transformation, Communication; обратная связь и проверка пограничных случаев. Не требует MCP или сторонних сервисов.",
+        "developerName": "Personal plugin",
+        "category": "Developer Tools",
+        "defaultPrompt": [
+          "Спроектируй механику престижа для инкрементальной игры.",
+          "Разбери кор-механику Hexa Sort и предложи варианты её развития.",
+          "Составь короткое ТЗ на улучшение алгоритма выбора цели работником."
+        ]
+      }
+    }
+  }
+}
