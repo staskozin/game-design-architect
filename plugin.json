@@ -2,6 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "game-design-architect",
   "version": "0.2.0",
+  "license": "MIT",
   "description": "Design, analyze, and specify game mechanics using a shared five-block decomposition framework.",
   "author": { "name": "staskozin" },
   "repository": "https://github.com/staskozin/game-design-architect",
